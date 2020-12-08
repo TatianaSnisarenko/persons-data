@@ -16,5 +16,9 @@ public class PersonsData {
         System.out.printf("%-11s %s \n", "City:", city);
         System.out.printf("%-11s %d \n", "Age:", age);
         System.out.printf("%-11s %s \n", "Hobby:", hobby);
+
+        System.out.println();
+
+        System.out.printf("A person by name %s lives in a city %s. \nThis person is %d years old and he/she likes %s.", name, city, age, hobby);
     }
 }
